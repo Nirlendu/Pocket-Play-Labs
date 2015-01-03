@@ -5,7 +5,7 @@ This is in fulfilment of Pocket Play Labs Assignment
 
 .. code-block:: pycon
 
-    >>> python Source/ServerDataParser.py ../Test_Cases/sample.log
+    >>> python Source/ServerDataParser.py Test_Cases/sample.log
 
 
 This will run a proper analysis for the server data
