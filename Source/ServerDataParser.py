@@ -202,7 +202,5 @@ class logFile_parser(object):
         self.calculate()
 
 
-'''
 x = logFile_parser()
 x.parse(str(sys.argv[1]))
-'''
