@@ -1,6 +1,6 @@
 import re
 import operator
-#import sys
+import sys
 
 
 class logFile_parser(object):
