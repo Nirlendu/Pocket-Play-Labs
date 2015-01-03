@@ -1,6 +1,6 @@
 import re
 import operator
-import sys
+#import sys
 
 
 class logFile_parser(object):
@@ -82,11 +82,12 @@ class logFile_parser(object):
         """
         Calculates median
         """
+        #return 6
         if len(time_array)%2:
-            return time_array[(len(time_array))/2]
+            return float(time_array[(len(time_array))/2])
         else:
             try:
-                return (time_array[(len(time_array)/2)-1] + time_array[len(time_array)/2])/2
+                return float(time_array[(len(time_array)/2)-1] + time_array[(len(time_array)/2)])/float(2)
             except:
                 pass
 
@@ -200,13 +201,8 @@ class logFile_parser(object):
             self.create_dict(url, dyno , serviceTime + connectTime)
         self.calculate()
 
-"""
+
+'''
 x = logFile_parser()
 x.parse(str(sys.argv[1]))
 '''
-try:
-    x.parse(str(sys.argv[1]))
-except:
-    print 'File not found'
-'''
-"""

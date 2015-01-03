@@ -1,14 +1,20 @@
 Pocket Play Labs Assignment
 ===========================
 
-This is in fulfillment of Pocket Play Labs Assingnment 
+This is in fulfilment of Pocket Play Labs Assignment 
 
 .. code-block:: pycon
 
-    >>> python Script.py Test_Cases/sample.log
+    >>> python Source/ServerDataParser.py ../Test_Cases/sample.log
 
 
 This will run a proper analysis for the server data
+
+Alternatively, we can also run the makefile
+
+.. code-block:: pycon
+
+    >>> make all
 
 
 Features
