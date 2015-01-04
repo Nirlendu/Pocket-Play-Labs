@@ -200,6 +200,7 @@ class logFile_parser(object):
             self.create_dict(url, dyno , serviceTime + connectTime)
         self.calculate()
 
+"""
 x = logFile_parser()
 x.parse(str(sys.argv[1]))
 '''
@@ -208,3 +209,4 @@ try:
 except:
     print 'File not found'
 '''
+"""
